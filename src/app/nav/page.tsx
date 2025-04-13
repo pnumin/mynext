@@ -42,7 +42,8 @@ export default function Nav() {
             </li>
             <li className='font-bold mx-1'>
             {/* {login && <Link to="/subway" className='w-full p-2  text-white */}
-            {/* {login && <Link href="/subway" className='w-full p-2  text-white
+            {/* 
+            {login && <Link href="/subway" className='w-full p-2  text-white
                                       rounded-lg
                                       hover:cursor-pointer hover:bg-emerald-400'>
                   지하철대기정보
