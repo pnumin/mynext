@@ -47,7 +47,7 @@ export default function Subway() {
     }
 
     console.log("handleChange", selRef.current?.value)
-    let tm  = (sarea as SArea[]).filter(item => item["측정소"] == selRef.current?.value )[0]["코드"] ;
+    const tm  = (sarea as SArea[]).filter(item => item["측정소"] == selRef.current?.value )[0]["코드"] ;
     setAreaIndex(tm) ;
   }
 
