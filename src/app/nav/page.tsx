@@ -51,11 +51,11 @@ export default function Nav() {
             </li>
             <li className='font-bold mx-1'>
             {/* {login && <Link to="/todolist" className='w-full p-2  text-white */}
-            {login && <Link href="/todolist" className='w-full p-2  text-white
+            {/*{login && <Link href="/todolist" className='w-full p-2  text-white
                                       rounded-lg
                                       hover:cursor-pointer hover:bg-emerald-400'>
                   할일목록
-              </Link>}
+              </Link>}*/}
             </li>
           </ul>
         <div  className='p-2  text-white
