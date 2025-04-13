@@ -83,7 +83,7 @@ export default function Subway() {
 
     console.log(tdata)
     const scodeMap = scode as SCode ;
-    let tm = Object.keys(scodeMap).map(item => 
+    const tm = Object.keys(scodeMap).map(item => 
               <div key={item} className="w-full">                                             
                 <div className="bg-emerald-600 pt-2 w-full
                 border-r flex justify-center
